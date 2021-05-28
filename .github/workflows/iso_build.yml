@@ -40,7 +40,7 @@ jobs:
     strategy:
       matrix:
         ###### EDIT HERE ######
-        EDITION: [xfce, gnome]
+        EDITION: [xfce]
         BRANCH: [stable]
         SCOPE: [minimal]
         #######################
