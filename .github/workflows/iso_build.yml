@@ -40,7 +40,7 @@ jobs:
     strategy:
       matrix:
         ###### EDIT HERE ######
-        EDITION: [gnome-next]
+        EDITION: [gnome]
         BRANCH: [stable]
         SCOPE: [minimal]
         #######################
