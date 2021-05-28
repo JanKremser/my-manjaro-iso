@@ -55,7 +55,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           ###### EDIT HERE ######
-          repository: janKremser/my-manjaro-iso-profiles
+          repository: JanKremser/my-manjaro-iso-profiles
           #######################
           token: "${{ secrets.GITHUB_TOKEN }}"
           path: 'iso-profiles'
