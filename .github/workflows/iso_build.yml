@@ -171,7 +171,7 @@ jobs:
           SCOPE: ${{ matrix.SCOPE }}
           VERSION: ${{ steps.time.outputs.time }}-developeredition
           ###### EDIT HERE ######
-          KERNEL: "linux512"
+          KERNEL: "linux510"
           CODE_NAME: "Community-Build"
           #######################
         run: |                
