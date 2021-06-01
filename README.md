@@ -11,6 +11,7 @@ vlc
 notepadqq
 firefox
 firefox-i18n-de
+```
 
 Root Packages
 ```
