@@ -40,7 +40,7 @@ jobs:
     strategy:
       matrix:
         ###### EDIT HERE ######
-        EDITION: [gnome]
+        EDITION: [xfce]
         BRANCH: [stable]
         SCOPE: [minimal]
         #######################
@@ -171,8 +171,8 @@ jobs:
           SCOPE: ${{ matrix.SCOPE }}
           VERSION: ${{ steps.time.outputs.time }}-developeredition
           ###### EDIT HERE ######
-          KERNEL: "linux510"
-          CODE_NAME: "Community-Build"
+          KERNEL: "linux512"
+          CODE_NAME: "DeathStar-Edition"
           #######################
         run: |                
           [ "$SCOPE" == "minimal" ] && unset SCOPE
