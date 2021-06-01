@@ -169,7 +169,7 @@ jobs:
           EDITION: ${{ matrix.EDITION }}
           BRANCH: ${{ matrix.BRANCH }}
           SCOPE: ${{ matrix.SCOPE }}
-          VERSION: ${{ steps.time.outputs.time }}-developeredition
+          VERSION: ${{ steps.time.outputs.time }}-deathstaredition
           ###### EDIT HERE ######
           KERNEL: "linux512"
           CODE_NAME: "DeathStar-Edition"
